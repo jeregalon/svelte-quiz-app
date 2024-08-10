@@ -4,6 +4,9 @@
 	import { rightQuest } from '../../stores';
 	import { wrongQuest } from '../../stores';
 	
+	/**
+     * @type {number | undefined}
+     */
 	let intervalId;
 	let tau = 3000;
 	let rightCount = 0;
